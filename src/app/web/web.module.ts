@@ -16,6 +16,8 @@ import { ProductsComponent } from './products/products.component';
   ],
   imports: [
     CommonModule
-  ]
+  ],
+  // En esta parte esrtoy diciendo que se exporte mi compomente.
+  exports:[HomeComponent]
 })
 export class WebModule { }
